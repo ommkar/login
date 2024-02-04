@@ -1,0 +1,110 @@
+
+*{
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("img.jpg");
+}
+h1{
+    margin-bottom:40px;
+}
+.login-box{
+    height: 500px;
+    width: 500px;
+    background-color: cyan;
+    display:flex ;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border-radius: 30px;
+    background: rgba(0, 255, 255, 0.211);
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.418);
+    color: white;
+    box-shadow: 0 0 20px ;
+    backdrop-filter: blur(5px);
+}
+.login{
+    margin-bottom: 30px;
+    height: 30px;
+    width: 450px;
+}
+
+.login input{
+    height: 100%;
+    width: 416px;  
+    border: none;
+    font: white;
+    padding: 10px 25px 10px 10px;
+    border-radius: 40px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.438);
+    font-size: 20px;
+    color: white;
+    padding-left: 25px;
+}  
+
+.login input::placeholder{
+    font-size: x-large;
+    position: relative;
+    color: white;
+    padding-left: 15px;  
+}
+.login i{
+    position: absolute;
+    right: 28px;
+    transform: translateY(-220%);
+    margin-right: 15px;
+}
+.remember-forget{
+    margin-top: 30px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight:700 ;
+    
+}
+.remember-forget a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight:100 ;
+    
+}   
+
+button{
+    height: 55px;
+    width: 60%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: rgba(0, 255, 255, 0.356);
+    cursor: pointer;
+    font-size: larger;
+    border-radius: 40px;
+}
+
+.register{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    font-weight:700 ;
+    
+}
+
+.register a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight:100 ;
+}
